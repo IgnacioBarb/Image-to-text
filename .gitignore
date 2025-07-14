@@ -1,0 +1,7 @@
+# Ignore all files inside input/ and output/
+input/*
+output/*
+
+# Except the folders themselves, so they stay in Git
+!input/.gitkeep
+!output/.gitkeep
